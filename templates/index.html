@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Quick Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <h1>Quick Portal</h1>
+
+        {% for section_title, links in sections.items() %}
+            <section class="link-section">
+                <h2>{{ section_title }}</h2>
+                <div class="link-list">
+                    {% for link in links %}
+                        <a href="{{ link.url }}" target="_blank" class="link-item">
+                            {{ link.name }}
+                        </a>
+                    {% endfor %}
+                </div>
+            </section>
+
+            {% if not loop.last %}
+                <hr class="section-divider">
+            {% endif %}
+        {% endfor %}
+    </main>
+</body>
+</html>
