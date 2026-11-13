@@ -8,7 +8,7 @@ SECTIONS = {
     {"name":"TUM Artemis","url":"https://artemis.cit.tum.de"},
     {"name":"IT-Sicherheit : Scoreboard","url":"https://scoreboard.sec.in.tum.de/"},
     {"name":"GBS-","url":"https://gbs.cm.in.tum.de/"},
-    {"name":"GDB(SQL) - Übungsplattform","url":"https://umbra-db.com/interface/"},
+    {"name":"GDB - Umbra","url":"https://umbra-db.com/interface/"},
     {"name":"SQL - HyPer","url":"https://hyper-db.de/interface.html#"},
     {"name":"Tutorien","url":"https://tumtutorien.onrender.com/"},
     {"name":"CIT Portal","url":"https://www.cit.tum.de"}
@@ -19,7 +19,8 @@ SECTIONS = {
         {"name":"Klassische Konzerte","url":"https://auraklassik-munchen.duckdns.org/"},
         {"name":"GitHub","url":"https://github.com/"},
         {"name":"Gebetszeiten","url":"https://namazvakitleri.diyanet.gov.tr/tr-TR/11022/munchen-namaz-vakitleri"},
-        {"name":"Projekt SQL","url":""},
+        {"name":"Massage","url":"https://www.mindoasis.com/de-de/booking"},
+        {"name":"Zulip","url":"https://zulip.cit.tum.de/"}
                 ]
 
 }
